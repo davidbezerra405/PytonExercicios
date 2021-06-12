@@ -1,0 +1,7 @@
+v = input('Digite algo: ')
+print('é Número: {}'.format(v.isnumeric()))
+print('é Decimal: {}'.format(v.isdecimal()))
+print('é Alfa: {}'.format(v.isalpha()))
+print('é Alfa-Numerico: {}'.format(v.isalnum()))
+print('é Caixa Baixa: {}'.format(v.islower()))
+print('é Caixa Alta: {}'.format(v.isupper()))
