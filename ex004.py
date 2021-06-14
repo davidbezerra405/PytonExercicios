@@ -1,4 +1,6 @@
 v = input('Digite algo: ')
+print('O tipo primitivo deste algo é: ', type(v))
+print('Só tem espeços? ', v.isspace())
 print('é Número: {}'.format(v.isnumeric()))
 print('é Decimal: {}'.format(v.isdecimal()))
 print('é Alfa: {}'.format(v.isalpha()))
