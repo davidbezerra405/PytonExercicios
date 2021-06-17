@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: ')).strip()
+letra = str(input('Informa a letra paanalize: ')).strip().upper()
+print('A frase tem {} caractere(s)'.format(len(frase)))
+print('A letra "{}" aparece {} veze(s)'.format(letra, frase.upper().count(letra)))
+print('A letra "{}" aparece na posição {} pela 1ª vez'.format(letra, frase.upper().find(letra)+1))
+print('A letra "{}" aparece na posição {} pela última vez'.format(letra, frase.upper().rfind(letra)+1))
